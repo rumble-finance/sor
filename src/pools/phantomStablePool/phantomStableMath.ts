@@ -14,7 +14,7 @@ const MAX_TOKEN_BALANCE = bnum(2)
     .div(10 ** 18);
 
 // All functions are adapted from the solidity ones to be found on:
-// https://github.com/balancer-labs/balancer-core-v2/blob/master/contracts/pools/stable/StableMath.sol
+// https://github.com/rumble-finance/balancer-core-v2/blob/master/contracts/pools/stable/StableMath.sol
 
 // TODO: implement all up and down rounding variations
 

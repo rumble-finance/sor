@@ -172,7 +172,7 @@ export class LinearPool implements PoolBase {
         const allBalancesScaled = this.tokens.map(({ balance }) =>
             parseFixed(balance, 18)
         );
-        // https://github.com/balancer-labs/balancer-v2-monorepo/blob/88a14eb623f6a22ef3f1afc5a8c49ebfa7eeceed/pkg/pool-linear/contracts/LinearPool.sol#L247
+        // https://github.com/rumble-finance/balancer-v2-monorepo/blob/88a14eb623f6a22ef3f1afc5a8c49ebfa7eeceed/pkg/pool-linear/contracts/LinearPool.sol#L247
         // VirtualBPTSupply must be used for the maths
         // TO DO - SG should be updated to so that totalShares should return VirtualSupply
         const bptBalanceScaled = allBalancesScaled[this.bptIndex];

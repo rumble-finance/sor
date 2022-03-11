@@ -8,7 +8,7 @@ import {
 } from '../../utils/bignumber';
 import { StablePoolPairData } from './stablePool';
 // All functions are adapted from the solidity ones to be found on:
-// https://github.com/balancer-labs/balancer-core-v2/blob/master/contracts/pools/stable/StableMath.sol
+// https://github.com/rumble-finance/balancer-core-v2/blob/master/contracts/pools/stable/StableMath.sol
 
 // TODO: implement all up and down rounding variations
 
